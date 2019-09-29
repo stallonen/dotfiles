@@ -87,8 +87,13 @@ type = internal/xbacklight
 card = intel_backlight
 enable-scroll =true
 output = eDP1
-format = <label>
+format = <label> <ramp>
 label = %percentage%%
+ramp-0 = 🌕
+ramp-1 = 🌔
+ramp-2 = 🌓
+ramp-3 = 🌒
+ramp-4 = 🌑
 [module/title]
 type = internal/xwindow
 ; Available tags:
