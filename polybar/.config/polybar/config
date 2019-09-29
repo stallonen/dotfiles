@@ -43,7 +43,7 @@ font-4= FontAwesome:style=Regular:pixelsize=9;1
 
 modules-left = bspwm 
 modules-center = date
-modules-right = pulseaudio updates-arch-combined wireless battery
+modules-right = backlight pulseaudio updates-arch-combined wireless battery
 ;[module/i3]
 ;type = internal/i3
 ;format = <label-state> <label-mode>
@@ -80,13 +80,15 @@ label-urgent-background = ${colors.foreground}
 label-urgent-padding = 1
 
 [module/backlight]
-type = internal/backlight
+type = internal/xbacklight
 
 ; Use the following command to list available cards:
 ; $ ls -1 /sys/class/backlight/
 card = intel_backlight
 enable-scroll =true
-
+output = eDP1
+format = <label>
+label = %percentage%%
 [module/title]
 type = internal/xwindow
 ; Available tags:
