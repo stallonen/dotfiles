@@ -1,0 +1,10 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhistcnt =8
+let g:netrw_dirhist_8='/home/neel/st'
+let g:netrw_dirhist_7='/home/neel/.config/clight'
+let g:netrw_dirhist_6='/home/neel'
+let g:netrw_dirhist_5='/home/neel/.vim'
+let g:netrw_dirhist_4='/home/neel/.vim/colors'
+let g:netrw_dirhist_3='/home/neel/.vim'
+let g:netrw_dirhist_2='/home/neel/.config/sxhkd'
+let g:netrw_dirhist_1='/home/neel/.config'
