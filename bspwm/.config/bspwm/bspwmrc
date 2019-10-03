@@ -1,6 +1,4 @@
 #! /bin/sh
-#pode bari zindabad
-#tor babake chudi zindabad
 sxhkd &
 polybar example &
 compton &
