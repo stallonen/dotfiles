@@ -18,9 +18,9 @@ choice=$(echo -e "${options[@]}" | dmenu  -nb "$color0" -nf "$color15" -sb "$col
 		echo "Program terminated."
 	fi
 	if [ "$choice" == 'shutdown' ]; then
-        exec st -e shutdown now
+        exec urxvt -e shutdown now
 	fi
 	if [ "$choice" == 'restart' ]; then
-        exec st -e shutdown -r now
+        exec urxvt -e shutdown -r now
 	fi
 	
