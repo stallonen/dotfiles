@@ -162,7 +162,7 @@ label-empty =
 
 [module/wireless]
 type = internal/network
-interface = wlp59s0
+interface = wlp3s0
 interval = 3.0
 
 format-connected-prefix = " "
