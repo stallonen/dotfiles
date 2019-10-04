@@ -10,7 +10,12 @@ super + l
 # terminal emulator
 super + Return
 	urxvt
-
+#edit config files
+ctrl + alt +c
+	/home/neel/.dmenu/dmenu-edit-configs.sh
+#power menu
+ctrl + alt +p
+	/home/neel/.dmenu/power.sh
 # program launcher
 super + r
 	rofi -show run -font "SF-Pro-Display-Regular 12"
