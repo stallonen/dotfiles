@@ -11,8 +11,8 @@
 declare -a options=("shutdown
 restart
 quit ")
-
-choice=$(echo -e "${options[@]}" | dmen -i -p 'Edit a config file: ')
+. "${HOME}/.cache/wal/colors.sh"
+choice=$(echo -e "${options[@]}" | dmenu  -nb "$color0" -nf "$color15" -sb "$color1" -sf "$color15" -i -p  'Edit a config file: ')
 
 	if [ "$choice" == ' quit ' ]; then
 		echo "Program terminated."

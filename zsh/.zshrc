@@ -105,7 +105,7 @@ cat ~/.cache/wal/sequences
 source ~/.cache/wal/colors-tty.sh
 
 # Import the colors.
-. "${HOME}/.cache/wal/colors.sh"
+#. "${HOME}/.cache/wal/colors.sh"
 
 # Create the alias.
-alias dmen='dmenu_run -nb "$color0" -nf "$color15" -sb "$color1" -sf "$color15"'
+#alias dmen='dmenu_run -i -p -nb "$color0" -nf "$color15" -sb "$color1" -sf "$color15"'
