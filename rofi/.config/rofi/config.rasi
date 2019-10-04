@@ -4,6 +4,7 @@ configuration {
 /*	lines: 15;*/
 /*	columns: 1;*/
 	font: "Iosevka 19";
+	theme: "~/.cache/wal/colors-rofi-dark.rasi";
 /*	bw: 1;*/
 /*	location: 0;*/
 /*	padding: 5;*/
@@ -52,7 +53,7 @@ configuration {
 /*	window-format: "{w}    {c}   {t}";*/
 /*	click-to-exit: true;*/
 /*	show-match: true;*/
-	theme: "falt-oragne";
+/*	theme: "falt-oragne";*/
 /*	color-normal: ;*/
 /*	color-urgent: ;*/
 /*	color-active: ;*/
