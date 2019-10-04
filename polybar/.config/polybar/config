@@ -116,7 +116,7 @@ label-empty =
 [module/updates-arch-combined]
 type = custom/script
 exec = ~/.config/polybar/updates-arch-combined.sh
-interval = 6
+interval = 21600
 
 
 
