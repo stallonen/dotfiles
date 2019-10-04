@@ -3,7 +3,7 @@ configuration {
 /*	width: 50;*/
 /*	lines: 15;*/
 /*	columns: 1;*/
-	font: "Iosevka 19";
+	font: "Monaco 19";
 	theme: "~/.cache/wal/colors-rofi-dark.rasi";
 /*	bw: 1;*/
 /*	location: 0;*/

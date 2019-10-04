@@ -2,7 +2,7 @@
 sxhkd &
 polybar example &
 compton &
-wal -i $HOME/Downloads/a.jpg
+wal -i $HOME/a.jpg
 bspc monitor   -d I  II  III  IV  V  VI VII VIII IX X
 
 bspc config border_width         7
