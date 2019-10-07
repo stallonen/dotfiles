@@ -20,8 +20,9 @@ wm-restack = bspwm
 #override-redirect = true
 
 ;background = ${colors.background}
-background = #00000000
-foreground = ${colors.foreground}
+background = #1d1f21
+;foreground = ${colors.foreground}
+foreground = #c5c8c6
 
 line-size = 3
 line-color = #f00
@@ -162,11 +163,11 @@ label-empty =
 
 [module/wireless]
 type = internal/network
-interface = wlp3s0
+interface = wlp59s0
 interval = 3.0
 
 format-connected-prefix = " "
-format-connected-prefix-foreground = ${colors.foreground-alt}
+format-connected-prefix-foreground = #c5c8c6
 label-connected=%downspeed:9%
 format-disconnected = 
 label-disconnected = %ifname% disconnected
