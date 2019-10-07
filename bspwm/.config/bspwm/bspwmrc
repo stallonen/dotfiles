@@ -1,7 +1,7 @@
 #! /bin/sh
 sxhkd &
 polybar example &
-compton &
+#compton &
 wal -i $HOME/a.jpg
 bspc monitor   -d I  II  III  IV  V  VI VII VIII IX X
 
