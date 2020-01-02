@@ -10,8 +10,7 @@
 #this should work
 declare -a options=("shutdown
 restart
-quit
-suspend")
+quit")
 . "${HOME}/.cache/wal/colors.sh"
 choice=$(echo -e "${options[@]}" | dmenu  -nb "$color0" -nf "$color15" -sb "$color1" -sf "$color15" -fn "Iosevka:12" -i -p  'Whatcha want to do ?')
 
@@ -19,12 +18,9 @@ choice=$(echo -e "${options[@]}" | dmenu  -nb "$color0" -nf "$color15" -sb "$col
 		echo "Program terminated."
 	fi
 	if [ "$choice" == 'shutdown' ]; then
-        exec urxvt -e shutdown now
+	exec dbus-send --system --print-reply --dest="org.freedesktop.ConsoleKit" /org/freedesktop/ConsoleKit/Manager org.freedesktop.ConsoleKit.Manager.Stop
 	fi
 	if [ "$choice" == 'restart' ]; then
-        exec urxvt -e shutdown -r now
+        exec dbus-send --system --print-reply --dest="org.freedesktop.ConsoleKit" /org/freedesktop/ConsoleKit/Manager org.freedesktop.ConsoleKit.Manager.Restart
 	fi
-	if [ "$choice" == 'suspend' ]; then
-        exec urxvt -e systemctl suspend
-	fi
-	
+

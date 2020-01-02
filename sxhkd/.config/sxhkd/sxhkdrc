@@ -3,7 +3,7 @@
 #
 
 Print
-	scrot 
+	maim a.jpg 
 #locking the screen
 super + l
 	betterlockscreen  -l dimblur
@@ -12,10 +12,10 @@ super + Return
 	urxvt
 #edit config files
 ctrl + alt +c
-	/home/neel/.dmenu/dmenu-edit-configs.sh
+	/home/larry/.dmenu/dmenu-edit-configs.sh
 #power menu
 ctrl + alt +p
-	/home/neel/.dmenu/power.sh
+	/home/larry/.dmenu/power.sh
 # program launcher
 super + r
 	rofi -show run -font "SF-Pro-Display-Regular 12"
