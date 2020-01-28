@@ -3,16 +3,13 @@
 #
 
 Print
-	maim a.jpg 
+	maim $(date +%s).png 
 #locking the screen
 super + l
 	betterlockscreen  -l dimblur
 # terminal emulator
 super + Return
 	urxvt
-#edit config files
-ctrl + alt +c
-	/home/larry/.dmenu/dmenu-edit-configs.sh
 #power menu
 ctrl + alt +p
 	/home/larry/.dmenu/power.sh

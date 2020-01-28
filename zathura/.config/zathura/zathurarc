@@ -1,2 +1,3 @@
 map <C-i> recolor
+set default-bg "#fcfdfd" #00
 set guioptions none
