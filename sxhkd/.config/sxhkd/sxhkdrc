@@ -3,19 +3,24 @@
 #
 
 Print
-	maim $(date +%s).png 
+	maim $(date +%s).png
+ctrl + Print
+	maim -s $(date +%s).png
+#launching discord
+super + d
+	discord --no-sandbox
 #locking the screen
 super + l
-	betterlockscreen  -l dimblur
+	betterlockscreen -l dimblur
 # terminal emulator
 super + Return
-	urxvt
+	alacritty
 #power menu
 ctrl + alt +p
-	/home/larry/.dmenu/power.sh
+	/home/larry/.config/scripts/power.sh
 # program launcher
 super + r
-	rofi -show run -font "SF-Pro-Display-Regular 12"
+	rofi -show drun 
 
 # make sxhkd reload its configuration files:
 super + Escape

@@ -1,7 +1,8 @@
+
 configuration {
  modi:               "drun";
- /*theme:            "~/.config/rofi/themes/gruvbox-dark-solid-modified.rasi";*/
- theme:              "~/.cache/wal/colors-rofi-dark.rasi";
+theme:            "~/.config/rofi/themes/slate.rasi";
+/* theme:              "~/.cache/wal/colors-rofi-dark.rasi";*/
  font:               "SF Pro Display Bold 10";
  combi-modi:         "window,drun,ssh";
  width:              17;
@@ -10,7 +11,7 @@ configuration {
  lines:              10;
  sidebar-mode:       false;
  location:           0;
- icon-theme:         "Paper";
- show-icons:         false;
+ icon-theme:         "Papirus";
+ show-icons:         true;
  separator-style:    none;
  }
