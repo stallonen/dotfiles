@@ -3,7 +3,7 @@ configuration {
  modi:               "drun";
 theme:            "~/.config/rofi/themes/slate.rasi";
 /* theme:              "~/.cache/wal/colors-rofi-dark.rasi";*/
- font:               "Roboto Regular 13";
+ font:               "SF Pro Display Bold 10";
  combi-modi:         "window,drun,ssh";
  width:              17;
  eh:                 1;

@@ -1,12 +1,11 @@
 #! /bin/sh
 sxhkd &
 polybar -c $HOME/.config/polybar/bspwm-polbar.conf main  &
-wal -i $HOME/Pictures/2.jpg &
 bspc monitor -d web code media edit graphics other
-bspc config border_width         9 
+bspc config border_width         3 
 bspc config window_gap           5
 #bspc config normal_border_color	"$color15" 
-bspc config focused_border_color "#BEBAB6 "
+bspc config focused_border_color "#FFFFFF"
 bspc config urgent_border_color "#B58900"
 bspc config presel_border_color "#26E2FF"
 bspc config split_ratio          0.52

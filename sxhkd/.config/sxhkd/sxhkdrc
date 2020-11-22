@@ -17,7 +17,7 @@ super + Return
 	alacritty
 #power menu
 ctrl + alt +p
-	/home/larry/.config/scripts/power.sh
+	/home/larry/.dmenu/power.sh
 # program launcher
 super + r
 	rofi -show drun 
