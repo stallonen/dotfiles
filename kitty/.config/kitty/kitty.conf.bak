@@ -23,6 +23,6 @@ listen_on unix:/tmp/mykitty
 
 
 # BEGIN_KITTY_THEME
-# Vibrant Ink
+# Modus Operandi
 include current-theme.conf
 # END_KITTY_THEME
